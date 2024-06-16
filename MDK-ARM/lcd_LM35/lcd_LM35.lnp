@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"lcd_lm35\startup_stm32f103xb.o"
+"lcd_lm35\i2c-lcd.o"
+"lcd_lm35\main.o"
+"lcd_lm35\stm32f1xx_it.o"
+"lcd_lm35\stm32f1xx_hal_msp.o"
+"lcd_lm35\stm32f1xx_hal_gpio_ex.o"
+"lcd_lm35\stm32f1xx_hal_adc.o"
+"lcd_lm35\stm32f1xx_hal_adc_ex.o"
+"lcd_lm35\stm32f1xx_hal.o"
+"lcd_lm35\stm32f1xx_hal_rcc.o"
+"lcd_lm35\stm32f1xx_hal_rcc_ex.o"
+"lcd_lm35\stm32f1xx_hal_gpio.o"
+"lcd_lm35\stm32f1xx_hal_dma.o"
+"lcd_lm35\stm32f1xx_hal_cortex.o"
+"lcd_lm35\stm32f1xx_hal_pwr.o"
+"lcd_lm35\stm32f1xx_hal_flash.o"
+"lcd_lm35\stm32f1xx_hal_flash_ex.o"
+"lcd_lm35\stm32f1xx_hal_exti.o"
+"lcd_lm35\stm32f1xx_hal_i2c.o"
+"lcd_lm35\stm32f1xx_hal_tim.o"
+"lcd_lm35\stm32f1xx_hal_tim_ex.o"
+"lcd_lm35\system_stm32f1xx.o"
+--strict --scatter "lcd_LM35\lcd_LM35.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "lcd_LM35.map" -o lcd_LM35\lcd_LM35.axf
