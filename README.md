@@ -101,3 +101,7 @@ Updates the LCD with the current temperature.
 Controls the relay based on the selected mode and temperature readings.
 
 Delays for a short period before repeating.
+
+![image](https://github.com/pl1707/STM32F103_LM35_LCD/assets/166418048/f7c3cd4f-27d4-4ead-a30a-3aa9c336b918)
+![image](https://github.com/pl1707/STM32F103_LM35_LCD/assets/166418048/2184982e-00a4-4b0c-9111-0a8903a9bf17)
+
